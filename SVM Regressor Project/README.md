@@ -1,4 +1,4 @@
-# SVR Kernel Evaluation on California Housing Dataset
+# SVM Regressor on California Housing Dataset
 
 ## Objective
 The aim of this project is to evaluate the performance of Support Vector Regression (SVR) with different kernels on the California Housing dataset. The performance is measured using Mean Squared Error (MSE) and R² score.
@@ -21,21 +21,6 @@ The aim of this project is to evaluate the performance of Support Vector Regress
   - `StandardScaler`: For feature scaling.
   - `SVR`: For Support Vector Regression.
   - `mean_squared_error` & `r2_score`: For performance evaluation.
-
-## How to Run
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your_username/your_repository_name.git
-    ```
-2. Install the required dependencies using:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Run the script:
-    ```bash
-    python script_name.py
-    ```
-4. The output will display the Mean Squared Error (MSE) and R² Score for each SVR kernel, and a bar chart visualization will be shown.
 
 ## Results
 The SVR model's performance with different kernels (`linear` and `rbf`) is compared using both MSE and R² score, and results are visualized using a bar chart.
